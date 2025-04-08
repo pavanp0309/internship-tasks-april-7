@@ -16,22 +16,25 @@ const BlogCard = () => {
       <div className='card'>
       <img src={pic1} alt="" width={'300px'} height={'200px'} />
       <button className='button'>TECH</button>
-      <h3>Samsung laptop is exploding again</h3>
+      <h3>Samsung laptop is exploding again Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, pariatur?</h3>
       <p>by Tyler Platt</p>
+      <button className='btn'>READMORE</button>
       </div>
 
       <div className='card'>
       <img src={pic2} alt="" width={'300px'} height={'200px'}/>
       <button className='button'>TECHNOLOGY</button>
       <h3>Why is the Tesla Cybertruk designed the way it is?</h3>
-      <p>An exploration into the truck's polarising design.</p>
+      <p>An exploration into the truck's polarising design. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+      <button className='btn'>READMORE</button>
       </div>
 
       <div className='card'>
       <img src={pic3} alt="" width={'300px'} height={'200px'} />
       <button className='button'>POPULAR</button>
       <h3>How to keep Going When you Don't know what's next?</h3>
-      <p>The future can be scary, But there are ways to deal with that fear.</p>
+      <p>The future can be scary, But there are ways to deal with that fear. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      <button className='btn'>READMORE</button>
       </div>
     </div>
     </div>
