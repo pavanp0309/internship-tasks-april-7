@@ -1,0 +1,110 @@
+.cardGroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  }
+  
+  .cardImgTop {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .cardBody {
+    padding: 1rem;
+  }
+  
+  .cardTitle {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cardText {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 0.75rem;
+  }
+  
+  .cardTextSmall {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 0.75rem;
+  }
+
+  /* New styles for author, tags, and read more button */
+  .cardMeta {
+    margin-bottom: 0.75rem;
+  }
+
+  .author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .authorImg {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    object-fit: cover;
+  }
+
+  .authorName {
+    font-size: 0.85rem;
+    color: #555;
+    font-weight: 500;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tag {
+    background-color: #f0f0f0;
+    color: #666;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    transition: background-color 0.2s ease;
+  }
+
+  .tag:hover {
+    background-color: #e0e0e0;
+  }
+
+  .readMoreBtn {
+    background-color: #4a6cf7;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 100%;
+  }
+
+  .readMoreBtn:hover {
+    background-color: #3a5ce5;
+  }
+  
