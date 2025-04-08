@@ -5,13 +5,13 @@ import React from 'react'
 import BlogPostPreviewUIStatic from "./components/TASK-1/BlogPostPreviewUIStatic";
 
 // Importing TASK-2 component
-// import BlogCardGroup from "./components/TASK-2/BlogCardGroup";
+import BlogCardGroup from "./components/TASK-2/BlogCardGroup";
 
 const App = () => {
   return (
     <div>
       <BlogPostPreviewUIStatic />
-      {/* <BlogCardGroup /> */}
+      <BlogCardGroup />
     </div>
   )
 }

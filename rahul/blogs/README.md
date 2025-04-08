@@ -1,12 +1,33 @@
-# React + Vite
+# TASK-1: Blog Post Preview UI (Static)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Objective:
+Design a blog post preview layout using **JSX** and **React styling techniques**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✅ Requirements:
 
-## Expanding the ESLint configuration
+1. Create a React component that renders **multiple blog post cards**.
+2. Each blog card should display the following:
+   - 🖼️ **Blog thumbnail** (image)
+   - 📝 **Blog title**
+   - 📄 **A short description/snippet**
+   - 👤 **Author name**
+   - 🏷️ **Tags or categories** (like `#React`, `#WebDev`)
+3. Use **CSS Modules** to style each card.
+4. Layout the cards in a **responsive grid**:
+   - 3 cards per row on desktop
+   - 1 card per row on mobile
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Enhancements (Optional):
+- Add **hover effects** to cards (e.g., shadow, scale, or border animation).
+- Add a **“Read More” button** (non-functional).
+
+---
+
+## 🧠 Concepts Practiced:
+- 📦 **JSX** & component layout in React
+- 🎨 **Styling in React** (modular/utility-based)
+- 📐 **Grid systems** and **responsive design**
