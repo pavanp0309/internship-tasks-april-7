@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    justify-content: center;
+}
+
+
+.Cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+
+    
+}
+.card{
+    width:400px
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+.Niche{
+    text-align: center;
+    color: aqua;
+}
+.body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+@media (min-width: 768px) {
+    .card {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  
+  @media (min-width: 1024px) {
+    .card{
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
