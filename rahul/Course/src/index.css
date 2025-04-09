@@ -1,0 +1,23 @@
+.TransactionHistory{
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+body{
+    background: #000;
+}
+.app{
+    background-image: url('./assets/tran.png');
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+}
+
+.BankingApp{
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 26px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 800px;
+    margin-bottom: 50px;
+
+}

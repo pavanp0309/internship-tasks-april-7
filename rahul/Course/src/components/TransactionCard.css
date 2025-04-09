@@ -1,0 +1,64 @@
+.transaction-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 8px 0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  /* background-color: #2dd896; */
+  width: 700px;
+  margin-left: 750px;
+  /* margin-top: 20px; */
+}
+
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+.amount.credit {
+  color: green;
+}
+
+.amount.debit {
+  color: red;
+}
+
+.transaction-details {
+  /* border: #721c24 solid 3px !important;  */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.status-badge {
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.status-completed {
+  background-color: #cbf1d4;
+  color: #078825;
+}
+
+.status-pending {
+  background-color: #daceaa;
+  color: #af8609;
+}
+
+.status-failed {
+  background-color: #eca1a8;
+  color: #721c24;
+}
+
+.category {
+  font-style: italic;
+}
+
+.transaction-notes {
+  margin-top: 12px;
+  font-size: 1em;
+  color: #ff0000;
+}
