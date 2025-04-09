@@ -1,0 +1,110 @@
+/* Container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Grid layout styles */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Product card styles */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.product-card p {
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.product-card .rating {
+  color: #f39c12;
+  margin-bottom: 8px;
+}
+
+.product-card .prime-badge {
+  background-color: #ffeb3b;
+  color: #333;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  margin-left: 8px;
+}
+
+.product-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 130px;
+  transition: background-color 0.2s;
+}
+
+.product-card button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+  background: #000;
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.fcontainer{
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+  width: 1520px;
+  position: absolute;
+  left: 0;
+}
