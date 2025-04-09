@@ -1,0 +1,148 @@
+#body{
+  background-color: #d2dae2;
+}
+/* Main Container */
+.job-portal-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.portal-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+/* Job Grid Layout */
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Job Card Styling */
+.job-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  border: 1px solid #e0e0e0;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hot-job-card {
+  border-top: 4px solid #ff4757;
+}
+
+/* Card Header */
+.card-header {
+  position: relative;
+  height: 120px;
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.company-logo {
+  max-height: 80px;
+  max-width: 80%;
+  object-fit: contain;
+}
+
+.hot-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ff4757;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.bookmark-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Card Body */
+.card-body {
+  padding: 1.5rem;
+}
+
+.job-title {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.company-name {
+  color: #7f8c8d;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+/* Job Meta */
+.job-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  color: #34495e;
+  font-size: 0.9rem;
+}
+
+/* Job Details */
+.job-details {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.job-details p {
+  margin: 0.3rem 0;
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.skill-tag {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 0.3rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.btn{
+  /* color: #0369a1; */
+  background-color:greenyellow;
+  padding: 9px;
+  border-radius: 10px;
+  color: #2c3e50
+}
+.btn:hover{
+  /* background-color:#0369a1; */
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+
+}
+
