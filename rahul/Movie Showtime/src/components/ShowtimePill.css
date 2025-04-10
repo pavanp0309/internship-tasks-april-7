@@ -1,0 +1,26 @@
+.showtime-pill {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .showtime-pill.morning {
+    /* margin-top: 5px; */
+    background-color: #f0ad4e; /* Yellow */
+  }
+  
+  .showtime-pill.afternoon {
+    background-color: #0275d8; /* Blue */
+  }
+  
+  .showtime-pill.evening {
+    background-color: #d9534f; /* Red */
+  }
+  
+  .showtime-pill:hover {
+    opacity: 0.8;
+  }

@@ -1,0 +1,50 @@
+body{
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #000000 33%, #ff8c00 100%);
+  
+}
+
+.app-container{
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.MovieShowtime{
+  background-color: #ff8c00;
+  font-style: italic;
+  font-size: 45px;
+  padding:  1px 1px 1px 160px;
+}
+.BOOK{
+  background-color: #ff8c00;
+  font-style:normal;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  padding:  1px 1px 1px 10px;
+}
+
+.ratingStart{
+  background: #000;
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.button1{
+  padding: 10px;
+  background: #ffcaca;
+  border-radius: 8px;
+}
+.Showtime{
+  color: #21D4FD;
+}
+.Showtime:hover{
+  color: #ff0000;
+}
+.Showtime1{
+  font-size: 30px !important;
+  color: #ffffff;
+}
+.Showtime1:hover{
+  color: #e5ff00;
+}

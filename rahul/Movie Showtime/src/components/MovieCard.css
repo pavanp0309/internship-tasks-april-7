@@ -1,0 +1,66 @@
+.movie-card-container {
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  .movie-card {
+    display: flex;
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-top: 50px;;
+    background-size: 1000px 500px;
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
+  
+  /* Overlay to darken and blur the background */
+  .movie-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.6); /* semi-transparent dark layer */
+    z-index: 0;
+  }
+  
+  /* Make sure content is above the overlay */
+  .poster-section,
+  .card-body {
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  .poster-section {
+    flex: 0 0 250px;
+  }
+  
+  .poster-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .card-body h2 {
+    font-size: 24px;
+  }
+  
+  .card-body .btn {
+    margin-right: 10px;
+  }
+  
+  .showtimes {
+    margin-top: 15px;
+  }
+  
