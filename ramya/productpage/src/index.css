@@ -1,0 +1,77 @@
+.product-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.product-image {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.product-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+}
+
+.product-price {
+  color: #b12704;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.product-rating {
+  color: #f0c14b;
+  margin-bottom: 0.3rem; /* Decreased spacing before Add to Cart */
+}
+
+.add-to-cart {
+  margin-top: auto;
+  background: #ffd814;
+  border: 1px solid #fcd200;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background: #f7ca00;
+}
+
+.prime-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #232f3e;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+
+.grid-container {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  background: #f3f3f3;
+
+}
+
+.navbar,
+.footer {
+  background: #232f3e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
