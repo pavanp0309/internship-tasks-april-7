@@ -1,4 +1,3 @@
-// src/components/BookBlog.jsx
 import React, { useState } from 'react';
 import blogData from '../data/data';
 import BookCard from './BookCard';

@@ -1,4 +1,3 @@
-// src/components/BookCard.jsx
 import React from 'react';
 import "../styles/BookCard.css"
 
