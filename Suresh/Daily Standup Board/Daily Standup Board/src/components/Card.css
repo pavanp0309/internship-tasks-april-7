@@ -1,0 +1,34 @@
+
+*{
+    background-color: #8EC5FC;
+background-image: linear-gradient(90deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+.first{
+    border: 2px solid black;
+}
+.middle{
+    border: 2px solid black;
+}
+.third{
+    border: 2px solid black;
+}
+.body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.first{
+    width: 30%;
+    
+}
+.middle{
+    width: 30%;
+}
+.third{
+    width: 30%;
+}
+.title{
+    text-align: center;
+}
