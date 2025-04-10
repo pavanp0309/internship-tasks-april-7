@@ -1,0 +1,109 @@
+ 
+
+/* Card container */
+#card {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    
+    
+}
+
+
+#card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Card image */
+#card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Card body */
+.card-body {
+    padding: 15px;
+}
+
+/* Title */
+.title {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+.title-1{
+    color: #333;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Property details */
+.company, .location, 
+.price, .area, 
+.bedrooms, .amenities, 
+.available {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.company b, .location b, 
+.price b, .area b, 
+.amenities b, .available b {
+    color: #333;
+    margin-right: 5px;
+}
+
+/* Basics section */
+.basics {
+    margin: 15px 0;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-evenly
+}
+
+/* Button */
+.btn {
+    background-color: #007bff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: #0069d9;
+}
+
+.available{
+    position: relative;
+    /* top: -300px; */
+}
+.avai{
+    color: forestgreen;
+    background:greenyellow;
+    padding: 8px;
+    border-radius: 10px;
+}
+.non-avai{
+    color: red;
+    background:pink;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
