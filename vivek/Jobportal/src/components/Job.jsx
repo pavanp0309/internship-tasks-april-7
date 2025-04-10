@@ -1,6 +1,7 @@
 import React from 'react'
 import data from './data/jobs'
 
+
 const job = () => {
     return (
       <div className='job-portal-container'>
