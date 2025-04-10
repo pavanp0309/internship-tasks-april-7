@@ -7,7 +7,7 @@ import Data from '../data/Data'
   return (
     <div className='container '>
         {/* Header start */}
-        <h1 className='text-bold text-success text-center'>Top Discount Sale </h1>
+        <h1 className='text-bold text-success text-center'>Top Discounts Sale </h1>
         {/* Header end */}
         {/* filter-section start */}
         <section className='filter-section  d-flex justify-content-between'>
