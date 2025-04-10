@@ -1,0 +1,55 @@
+.custom-card-bg {
+    background: linear-gradient(to bottom right, #fffde7, #ffffff);
+    border-radius: 12px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .custom-card-bg:hover {
+    transform: translateY(-3px);
+  }
+  
+  .overdue-card {
+    border-width: 2px !important;
+  }
+  body {
+    background: linear-gradient(to top left, #cfe2ff, #e3f2fd);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa;
+  }
+  
+  .bg-danger {
+    background-color: #f8d7da;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .badge {
+    font-size: 0.875rem;
+    margin-right: 5px;
+  }
+  
+  .list-unstyled {
+    margin-bottom: 10px;
+  }
+  
+  
