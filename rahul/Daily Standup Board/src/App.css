@@ -1,0 +1,39 @@
+body {
+  background-color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #0080ff;
+}
+
+.Board{
+  color: #000000 !important;
+  font-style: italic;
+  font-size: 40px;
+  padding: 20px;
+  background: #9dff00;
+  border-radius: 15px;
+  width: 540px;
+  margin-top: 3px;
+}
+.Board1{
+  text-align: end;
+  color: #000000 !important;
+  font-style: italic;
+  font-size: 20px;
+  padding: 10px 100px 10px 10px;
+
+  background: #9dff00;
+  border-radius: 15px;
+  /* width: 540px; */
+  margin-top: 3px;
+}

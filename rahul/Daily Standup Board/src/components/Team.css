@@ -1,0 +1,29 @@
+.team-container {
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+
+
+.team-title {
+    color: #ddff00;
+    background: #11ff007b;
+    font-style: 55px !important;   
+    margin: 45px 0px;
+    text-align: center;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin: 5px;
+}
+
+.col-md-4 {
+    padding: 10px;
+}

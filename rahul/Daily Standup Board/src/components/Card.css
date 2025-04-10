@@ -1,0 +1,56 @@
+.card {
+    border: 1px solid #ffffff69;
+    /* background: #54ff29; */
+    width: 300px;
+    padding: 10px;
+    /* border-radius: 1px; */
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .StrongTxt{
+    color: rgb(225, 255, 142);
+  }
+  .StrongTxt1{
+    color: rgb(255, 0, 0);
+  }
+
+  .card-body{
+    background: #000;
+    padding: 30px;
+    margin: 0;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+  }
+  
+  .card-title {
+    color: #00f2ff;
+    font-size: 30px;
+    margin: 0;padding: 0;
+  }
+
+  .card-title:hover{
+    color: orange;
+  }
+  
+  .card-text {
+    color: #00ff3c;
+  }
+  
+  .text-danger {
+    width: 220px;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 4px;
+  }
+
+  .text-danger:hover{
+    color: #00ff3c;
+  }
+  
+  .text-success {
+    color: rgb(255, 145, 0);
+    /* color: green; */
+  }
