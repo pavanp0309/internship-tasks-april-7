@@ -1,43 +1,40 @@
-/* Ensure all cards have the same width and height */
+
 .course-card {
-  width: 100%; /* Take full width available */
-  height: 100%; /* Ensure cards stretch the full height of their container */
+  width: 100%; 
+  height: 100%; 
 }
 
 .card {
-  height: 100%; /* Make sure the card occupies full height in the container */
+  height: 100%; 
   display: flex;
-  flex-direction: column; /* Ensure card content stacks vertically */
+  flex-direction: column; 
 }
 
-/* Optional: Set a max-width for cards to ensure they don't get too wide */
+
 .card-body {
-  flex-grow: 1; /* Allow card content to stretch */
+  flex-grow: 1; 
   display: flex;
-  flex-direction: column; /* Stack content vertically */
+  flex-direction: column; 
 }
 
 .card-img-top {
-  height: 200px; /* Fixed height for image */
-  object-fit: cover; /* Ensure image covers the area without distorting */
+  height: 200px; 
+  object-fit: cover; 
 }
 
-/* Optional: Give a fixed size to the cards */
+
 .course-card {
-  max-width: 320px; /* Limit card width */
-  min-height: 450px; /* Ensure the card has consistent height */
-  margin: auto; /* Center cards */
+  max-width: 320px; 
+  min-height: 450px; 
+  margin: auto; 
 }
 
 
-/* Adjust the layout for responsiveness */
 @media (max-width: 768px) {
   .course-card {
-    max-width: 100%; /* Full width on smaller screens */
+    max-width: 100%; 
   }
 }
-/* Custom card with background image */
-/* Set full background image */
 
 body {
   margin: 0;

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../components/CourseCard.css'; // for custom styles and optional animation
+import '../components/CourseCard.css'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const CourseCard = ({
@@ -29,8 +29,8 @@ const CourseCard = ({
           <span>{duration}</span>
           <span className="text-capitalize">{level}</span>
         </div>
-
-        {/* ⭐ Updated Rating with stars */}
+               {/* Rating*/}
+      
         <div className="mb-2 text-warning">
           {Array.from({ length: 5 }, (_, index) => (
             <span key={index}>
