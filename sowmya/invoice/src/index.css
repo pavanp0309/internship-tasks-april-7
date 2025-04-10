@@ -1,0 +1,36 @@
+body{
+  background: rgb(102,151,210);
+  background: linear-gradient(90deg, rgba(102,151,210,0.9697128851540616) 0%, rgba(208,53,142,0.9557072829131653) 0%, rgba(169,53,154,1) 34%, rgba(163,51,124,1) 67%, rgba(215,24,91,0.9136904761904762) 90%, rgba(172,37,87,0.9024859943977591) 100%, rgba(37,160,172,0.9417016806722689) 100%, rgba(15,142,123,1) 100%, rgba(121,9,75,1) 100%);
+}
+.border-danger {
+  border: 2px solid red !important;
+}
+
+.border-success {
+  border: 2px solid green !important;
+}
+
+.badge.paid {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.badge.pending {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.badge.overdue {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
