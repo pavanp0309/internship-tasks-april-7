@@ -1,0 +1,8 @@
+body{
+    background: #EECDA3;
+    background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);
+    background: linear-gradient(to right, #EF629F, #EECDA3);
+}
+.card:hover{
+    transform: rotate(20deg);
+}
