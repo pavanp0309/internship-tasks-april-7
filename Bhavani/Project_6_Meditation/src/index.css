@@ -1,0 +1,52 @@
+.app-container {
+  background: url("/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.content {
+  background-color: rgba(23, 22, 19, 0.725);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+  text-align: center;
+  color: #05d5fa;
+  font-weight: bold;
+}
+.main-title-1 {
+  text-align: center;
+  color: #05d5fa;
+  margin-bottom: 2rem;
+}
+.session-card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.4s ease-in-out;
+  cursor: pointer;
+  height: 100%;
+  position: relative;
+}
+
+.session-card:hover {
+  transform: scale(1.05);
+}
+
+.session-card .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-title {
+  font-weight: bold;
+  color: #fe06c8;
+  margin-bottom: 1rem;
+}
