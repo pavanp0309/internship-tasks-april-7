@@ -1,0 +1,90 @@
+.app-container {
+    max-width: 800px;
+    margin: auto;
+    font-family: "Arial", sans-serif;
+    padding: 20px;
+  }
+  
+  .category-section {
+    margin-bottom: 30px;
+  }
+  
+  .category-title {
+    font-size: 24px;
+    cursor: pointer;
+    color: #444;
+  }
+  
+  .session-list {
+    margin-top: 10px;
+  }
+  
+  .session-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #fdfdfd;
+  }
+  
+  .session-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+  }
+  
+  .lock {
+    color: red;
+    font-size: 18px;
+  }
+  
+  .premium {
+    background-color: gold;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  .new {
+    background-color: orange;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  .category,
+  .duration,
+  .description {
+    margin: 4px 0;
+    font-size: 14px;
+  }
+  
+  .timer-preview {
+    font-size: 14px;
+    color: #007bff;
+    margin: 6px 0;
+  }
+  
+  .cta {
+    margin-top: 10px;
+  }
+  
+  .unlock-btn,
+  .start-btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .unlock-btn {
+    background-color: crimson;
+    color: white;
+  }
+  
+  .start-btn {
+    background-color: green;
+    color: white;
+  }
+  

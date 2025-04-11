@@ -1,0 +1,80 @@
+.app-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .celebrate {
+    background-color: #c8f7c5;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+  }
+  
+  .category-title {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .metric-list {
+    display: grid;
+    gap: 16px;
+    margin-top: 10px;
+  }
+  
+  .metric-card {
+    background: #f8f8f8;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  .metric-card.low {
+    border-left: 5px solid red;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .goal-tag {
+    background: gold;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+  }
+  
+  .emoji {
+    font-size: 20px;
+  }
+  
+  .details p {
+    margin: 6px 0;
+  }
+  
+  .progress-bar-wrapper {
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background: #76c7c0;
+  }
+  
+  .message {
+    margin-top: 6px;
+    font-weight: bold;
+    color: #555;
+  }
+  

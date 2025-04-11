@@ -1,0 +1,36 @@
+export const ticketsData = [
+    {
+      id: "101",
+      customerName: "Alice Johnson",
+      customerType: "Premium",
+      issue: "Login Failure",
+      description: "User unable to log into account.",
+      createdDate: "2025-04-09",
+      priority: "High",
+      status: "Open",
+      profilePic: "",
+    },
+    {
+      id: "102",
+      customerName: "Bob Smith",
+      customerType: "Free",
+      issue: "Slow Performance",
+      description: "App takes too long to load dashboard.",
+      createdDate: "2025-04-08",
+      priority: "Medium",
+      status: "In Progress",
+      profilePic: "",
+    },
+    {
+      id: "103",
+      customerName: "Clara Rose",
+      customerType: "Premium",
+      issue: "Billing Error",
+      description: "Charged twice for last month’s subscription.",
+      createdDate: "2025-04-07",
+      priority: "High",
+      status: "Closed",
+      profilePic: "",
+    },
+  ];
+  

@@ -1,0 +1,89 @@
+.ticket-card {
+    display: flex;
+    padding: 16px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    background-color: #fafafa;
+  }
+  
+  .avatar {
+    margin-right: 16px;
+  }
+  
+  .avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .initials {
+    width: 50px;
+    height: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  .header {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  
+  .badge {
+    margin-left: 10px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .premium {
+    background-color: gold;
+    color: black;
+  }
+  
+  .escalated {
+    background-color: red;
+    color: white;
+  }
+  
+  .meta {
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  
+  .status.green {
+    color: green;
+  }
+  
+  .status.orange {
+    color: orange;
+  }
+  
+  .status.gray {
+    color: gray;
+  }
+  
+  .follow-btn {
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
