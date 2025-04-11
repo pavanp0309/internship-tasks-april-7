@@ -1,0 +1,22 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.status-group {
+  margin-bottom: 30px;
+}
+
+.status-group h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
