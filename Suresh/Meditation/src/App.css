@@ -1,0 +1,49 @@
+.app-container {
+    background: url("/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  .content {
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  }
+  
+  .main-title {
+    text-align: center;
+    color: #05fa46;
+    font-weight: bold;
+  }
+  .main-title-1 {
+    text-align: center;
+    color: #fa0505;
+    margin-bottom: 2rem;
+  }
+  .session-card {
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.4s ease-in-out;
+    cursor: pointer;
+    height: 100%;
+    position: relative;
+    padding-top: 6px;
+  }
+  
+  .session-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .session-card .overlay {
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+    padding: 1rem;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
