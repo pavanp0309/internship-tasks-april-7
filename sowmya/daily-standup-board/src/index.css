@@ -1,0 +1,27 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  color: #333;
+}
+
+
+h2 {
+  border-left: 8px solid #6c63ff;
+  padding-left: 12px;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 20px rgba(98, 20, 20, 0.2);
+}
+
+.card-body {
+  border-radius: 7px;
+  font-size: 0.95rem;
+}
