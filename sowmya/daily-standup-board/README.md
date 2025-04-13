@@ -27,11 +27,9 @@ Daily Standup Board
 
     Array operations:
 
-    map() to iterate over users and teams
-
-    filter() to group users by team
-
-    Set to extract unique teams
+        map() to iterate over users and teams
+        filter() to group users by team
+        Set to extract unique teams
 
     Bootstrap: Used for layout (grid system and responsiveness).
 
