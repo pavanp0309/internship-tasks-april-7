@@ -1,0 +1,110 @@
+.property-card {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 16px;
+  margin: auto;
+  transition: transform 0.3s ease;
+}
+
+.property-card:hover {
+  transform: scale(1.02);
+}
+
+.property-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.property-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.property-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.verified {
+  color: green;
+  font-size: 0.9rem;
+}
+
+.property-location {
+  color: #666;
+  margin: 6px 0;
+}
+
+.property-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+.property-details {
+  display: flex;
+  gap: 12px;
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+
+.property-amenities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.amenity {
+  background-color: #f1f1f1;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.availability {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.available {
+  background-color: #e0fbe0;
+  color: #207520;
+}
+
+.not-available {
+  background-color: #fbdede;
+  color: #b30000;
+}
+
+.property-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-btn {
+  padding: 8px 12px;
+  font-size: 0.95rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
