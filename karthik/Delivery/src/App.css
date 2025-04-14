@@ -1,0 +1,12 @@
+body {
+    background-color: #f8f9fa;
+  }
+  .card {
+    border-radius: 1rem;
+  }
+  .list-group-item {
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+  }
+  
