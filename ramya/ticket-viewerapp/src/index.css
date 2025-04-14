@@ -1,0 +1,51 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #007bff;
+}
+
+.card {
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #343a40;
+}
+
+.card-body {
+  background-color: #ffffff;
+}
+
+.badge {
+  font-size: 0.9rem;
+}
+
+button {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.avatar {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+h3 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #495057;
+}
