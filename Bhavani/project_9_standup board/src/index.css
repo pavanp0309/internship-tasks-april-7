@@ -1,0 +1,20 @@
+body {
+  background: #03125c;
+  background: linear-gradient(90deg, rgb(81, 83, 96) 0%, rgb(16, 16, 32) 46%, rgba(92, 108, 128, 1) 91%);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.standup-card {
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  overflow: hidden;
+}
+
+.standup-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+.text-shadow-sm {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
