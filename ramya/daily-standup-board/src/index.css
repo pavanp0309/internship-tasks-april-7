@@ -1,0 +1,9 @@
+body {
+  background-color: #f7f9fc;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.task-list ul {
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
