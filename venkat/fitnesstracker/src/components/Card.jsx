@@ -1,38 +1,54 @@
-import React from 'react'
+import React from 'react';
 
-const Card = () => {
+const Card = ({ fitnessMetrics }) => {
+  const { title, emoji, goal, achieved, image } = fitnessMetrics;
+  const progress = goal > 0 ? Math.min((achieved / goal) * 100, 100) : 0;
+  const goalMet = achieved >= goal;
+  const progressClass = progress < 100 ? 'bg-danger' : 'bg-primary';
+
+  let message = '';
+  if (progress < 100) message = '🤗 Keep going...🏃';
+  else if (progress >= 100) message = '😍 Reached goal 😍';
+
   return (
-    <section>
-        <h3 className='heading'> Daily Workout </h3>
+    <div className="card mb-4 mx-2" style={{ width: '100%', maxWidth: '400px' }}>
+      <img
+        src={image}
+        alt={title}
+        className="card-img-top"
+        style={{ height: '300px', objectFit: 'cover' }}
+      />
+      <div className="card-body">
+        <h5 className="card-title">
+          {title}
+          {goalMet && (
+            <span className="badge bg-success ms-2">🔥 Completed</span>
+          )}
+        </h5>
+        <h3>{emoji}</h3>
+        <p className="card-text">Goal: {goal}</p>
+        <p className="card-text">Achieved: {achieved}</p>
+        {/* <p className="card-text">Remaining: {remaining}</p> */}
+       
 
-        <div className='container'>
-            <div className='card'>
-                <p><b>Body Pulse  - (per day)</b></p>
-                <button className='btn btn-success'><i class="bi bi-heart-pulse"></i></button>
-                <h3>788</h3>
-                <p></p>
-                <button className='btn'>Know More</button>
-
-                
-            </div>
-            <div className='card'>
-               <p><b>Calorie Intake - (per day)</b></p>
-                <p></p>
-                <p></p>
-                <button className='btn'>Know More</button>
-
-            </div>
-            <div className='card'>
-               <p><b>Milestone - (Weight)</b></p>
-                <p></p>
-                <button className='btn'>Know More</button>
-
-   
-            </div>
+        <h6>Progress</h6>
+        <div
+          className="progress"
+          role="progressbar"
+          aria-valuenow={progress}
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <div
+            className={`progress-bar progress-bar-striped progress-bar-animated ${progressClass}`}
+            style={{ width: `${progress}%` }}
+          ></div>
         </div>
-    </section>
-    
-  )
-}
 
-export default Card
+        {message && <p className="fw-bold mt-3">{message}</p>}
+      </div>
+    </div>
+  );
+};
+
+export default Card;
