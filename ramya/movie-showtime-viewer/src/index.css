@@ -1,0 +1,121 @@
+
+body {
+  background-color: #f2f6fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.showtimes {
+  margin-top: 20px;
+}
+
+.showtimes button {
+  font-size: 1rem;
+  min-width: 120px;
+  position: relative;
+}
+
+.showtimes button[disabled] {
+  background-color: #6c757d;
+}
+
+.showtimes .badge {
+  font-size: 0.8rem;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.rating {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-success {
+  background-color: #28a745;
+}
+
+.ms-2 {
+  margin-left: 0.5rem;
+}
+
+.text-danger {
+  color: red;
+}
+
+.text-dark {
+  color: #343a40;
+}
+
+.bg-warning {
+  background-color: #ffc107;
+}
+
+.bg-dark {
+  background-color: #343a40;
+}
+.movie-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.showtimes {
+  margin-top: 10px;
+}
+
+.pill-btn {
+  padding: 8px 14px;
+  margin: 5px;
+  border: none;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pill-btn.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pill-btn.now-playing {
+  background-color: #28a745;
+}
