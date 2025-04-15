@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  
+  overflow: hidden;
+  /* background: linear-gradient(to right,red,blue); */
+  background-color: #4158D0;
+background-image: linear-gradient(to right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+  display: flex;
+  justify-content: center;
+
+}
+.card{
+  margin-top: 20px;
+  width:400px;
+  height:600px;
+  border: 1px solid black;
+  position: relative;
+  border-radius: 20px;
+  backdrop-filter: blur(109px);
+  /* background-image: url("https://media.istockphoto.com/id/1412765628/vector/abstract-speed-business-start-up-launching-product-with-electric-car-and-city-concept-hitech.jpg?s=612x612&w=0&k=20&c=ZcK2rLxON2s1q-dFKnxlUq2mwhF9hG1LLGw7pVrIbeE="); */
+ }
+
+.card img{
+  position: absolute;
+  width: 25vw;
+  height:50vh;
+  left: 10px;
+  top: 250px;
+}
+.text{
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+.card-text{
+  position: absolute;
+  top: 80px;
+  left: 10px;
+}
+.btn{
+  background-color:aliceblue;
+  padding: 3px;
+  margin-left: 200px;
+  position: absolute;
+  top: 170px;
+  right: 180px;
+}

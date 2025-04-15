@@ -3,11 +3,70 @@
   margin: 0;
   box-sizing: border-box;
 }
+@media screen and (max-width: 992px) {
+  #card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right, .left {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rightone, .righttwo {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .card {
+    width: 90% !important;
+    margin: auto;
+  }
+
+  .icons {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .time {
+    font-size: 20px;
+  }
+
+  svg {
+    width: 90px;
+    height: 90px;
+  }
+
+  #btn {
+    width: 35px;
+    height: 35px;
+  }
+}
+
 .img{
   border: 1px solid black;
   border-radius: 50%;
   width: 40px;
   height: 40px;
+}
+#card{
+  display: flex;
+  justify-content: space-around;
+}
+#card, .right, .left {
+  flex-wrap: wrap;
 }
 .left{
   display: flex;
@@ -48,4 +107,12 @@
 #card4{
   background-color: #0cbfcfde;
 }
+.name, .wel-name, .top-name {
+  word-wrap: break-word;
+  text-align: center;
+}
+.text-goal,.text-achived{
+  color: chartreuse;
+}
+
 
