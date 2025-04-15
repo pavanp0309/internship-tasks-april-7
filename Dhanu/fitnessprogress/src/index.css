@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+}
+#card1{
+    background: #EEAECA;
+background: linear-gradient(129deg, rgba(238, 174, 202, 1) 0%, rgba(81, 75, 191, 1) 50%, rgba(148, 187, 233, 1) 100%);
+}
+.heading{
+    font-style:unset;
+}
+#card2{
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 51%, rgba(237, 221, 83, 1) 100%);
+
+}
+#card3{
+    background: #EEAECA;
+background: linear-gradient(129deg, rgba(238, 174, 202, 1) 0%, rgba(191, 75, 75, 1) 50%, rgba(148, 187, 233, 1) 100%);
+}
+#card{
+    background: #4CA1AF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.profilepic{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#icon{
+    font-size: 20px;
+}
