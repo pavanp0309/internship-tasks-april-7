@@ -1,0 +1,111 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.orders-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.order-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.order-meta {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.payment {
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.payment.paid {
+  color: #28a745;
+  background: #e6f7eb;
+}
+
+.payment.cod {
+  color: #ffc107;
+  background: #fff8e1;
+}
+
+.payment.failed {
+  color: #dc3545;
+  background: #fce8e8;
+}
+
+.status {
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.status.delivered {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status.shipped {
+  background: #cce5ff;
+  color: #004085;
+}
+
+.status.placed {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.status.out-for-delivery {
+  background: #d1ecf1;
+  color: #0c5460;
+}
+
+.customer-name {
+  margin: 10px 0;
+  color: #333;
+}
+
+.order-items ul {
+  margin: 5px 0 15px;
+  padding-left: 20px;
+}
+
+.order-items li {
+  margin-bottom: 5px;
+}
+
+.delivery-address {
+  margin: 0;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.address-icon {
+  margin-right: 5px;
+}
