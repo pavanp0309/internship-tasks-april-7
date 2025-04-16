@@ -1,0 +1,13 @@
+.badge{
+    width: 100px;
+    height: 25px;
+}
+.desc{
+    font-size: 10px;
+}
+#start{
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+}
