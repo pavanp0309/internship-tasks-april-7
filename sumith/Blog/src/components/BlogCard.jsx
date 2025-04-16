@@ -2,16 +2,10 @@ import React from 'react'
 import pic1 from '../assets/pic1.jpg'
 import pic2 from '../assets/pic2.jpg'
 import pic3 from '../assets/pic3.jpg'
-import pic4 from '../assets/pic4.jpg'
-import pic5 from '../assets/pic5.webp'
-import pic6 from '../assets/pic6.jpg'
-import pic7 from '../assets/pic7.webp'
-import pic8 from '../assets/pic8.jpg'
-
 const BlogCard = () => {
-  return (
-   
+  return ( 
     <div>
+      <h1 className='title'>Blog Cards</h1>
         <div className='container'>
       <div className='card'>
       <img src={pic1} alt="" width={'300px'} height={'200px'} />
