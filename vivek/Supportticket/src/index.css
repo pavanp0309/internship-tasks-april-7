@@ -1,0 +1,233 @@
+/* Base Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  max-width: 1400px;
+}
+
+/* Header Styles */
+h1 {
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e9ecef;
+}
+
+/* Stats Card Styles */
+.stats-card {
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.stats-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.stats-card .card-title {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6c757d;
+}
+
+.stats-card .display-6 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+/* Ticket Card Styles */
+.ticket-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+}
+
+.ticket-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.ticket-card.Open {
+  border-left-color: #0d6efd;
+  
+  
+}
+
+.ticket-card.In\ Progress {
+  border-left-color: #0dcaf0;
+  
+}
+
+.ticket-card.Closed {
+  border-left-color: #198754;
+}
+
+/* Ticket Header */
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.ticket-title {
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0;
+  flex: 1;
+}
+
+/* Priority Badges */
+.badge-priority {
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 600;
+}
+
+.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+.bg-warning {
+  background-color: #fd7e14 !important;
+}
+
+.bg-secondary {
+  background-color: #6c757d !important;
+}
+
+/* Customer Info */
+.customer-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  color: #495057;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  font-size: 0.85rem;
+}
+
+.customer-name {
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+/* Status Badges */
+.badge-status {
+  padding: 0.4em 0.8em;
+  font-weight: 500;
+}
+
+.bg-primary {
+  background-color: #0d6efd !important;
+}
+
+.bg-info {
+  background-color: #0dcaf0 !important;
+}
+
+.bg-success {
+  background-color: #198754 !important;
+}
+
+/* Ticket Description */
+.ticket-description {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Ticket Footer */
+.ticket-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-date {
+  font-size: 0.8rem;
+  color: #adb5bd;
+}
+
+/* Follow Up Button */
+.btn-followup {
+  border-radius: 20px;
+  padding: 0.25rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid #0d6efd;
+  color: #0d6efd;
+  transition: all 0.2s;
+}
+
+.btn-followup:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* Premium Badge */
+.badge-premium {
+  background-color: #198754;
+  font-size: 0.7rem;
+  padding: 0.25em 0.6em;
+  font-weight: 500;
+}
+
+/* Status Columns */
+.status-column {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  min-height: 100px;
+}
+
+.status-column h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .status-column {
+    margin-bottom: 2rem;
+  }
+  
+  .stats-card {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Animation for hover effects */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.ticket-card {
+  animation: fadeIn 0.3s ease-out forwards;
+}
