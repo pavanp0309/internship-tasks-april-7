@@ -1,0 +1,193 @@
+/* Applications.css */
+
+/* Apply a linear gradient background to the entire body */
+body {
+  background: linear-gradient(90deg, #4b6f79, #231239); /* Blue gradient */
+  color: #ffffff; /* White text color for the body */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container for the application cards */
+.applications-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #1e3a57; /* Light background color for the container */
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Heading styling */
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #e4e5e6; 
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styling for each card */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #ffffff; /* White background for the card */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Different background colors for each card */
+.card:nth-child(1) {
+  background-color: #ffdfba; /* Light orange */
+}
+
+.card:nth-child(2) {
+  background-color: #c1e1dc; /* Light teal */
+}
+
+.card:nth-child(3) {
+  background-color: #f7b7a3; /* Soft pink */
+}
+
+.card:nth-child(4) {
+  background-color: #e1c4f3; /* Lavender */
+}
+
+.card:nth-child(5) {
+  background-color: #f7e6e1; /* Soft peach */
+}
+
+/* Hover effect for cards */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  background-color: #f1f1f1; /* Slightly darker background on hover */
+}
+
+/* Card header styling */
+.card-header {
+  background-color: #007bff; /* Blue background for the card header */
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+}
+
+/* Card body styling */
+.card-body {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for card body */
+}
+
+/* Button hover effects inside cards */
+.card .btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.card .btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Add smooth fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* Container for Application Details */
+.application-detail-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f8f9fa; /* Light background for the container */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  animation: fadeIn 0.5s ease-in-out;
+  background-image: linear-gradient(135deg, #e0f7fa, #290f5a); /* Gradient background */
+}
+
+/* Heading styling */
+h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #212529; /* Dark color for contrast */
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Error message styling */
+.error-message {
+  color: #e74c3c;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* List styling */
+.list-group-item-custom {
+  font-size: 1rem;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #ffffff; /* White background for each list item */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #495057; /* Dark text for readability */
+}
+
+/* Hover effect for list items */
+.list-group-item-custom:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #4d4957; /* Light gray on hover for better contrast */
+  color: #f4f5f6; /* Dark color on hover for better readability */
+}
+
+/* Back button styling */
+.back-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #007bff; /* Blue background for button */
+  color: #ffffff; /* White text for button */
+  border: none;
+}
+
+/* Back button hover effect */
+.back-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Add smooth fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
