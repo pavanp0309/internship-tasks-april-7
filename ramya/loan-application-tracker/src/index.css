@@ -1,0 +1,214 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2c3e50;
+    color: white;
+    padding-top: 20px;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+  }
+  
+  .sidebar nav ul li a.active {
+    background-color: #34495e;
+  }
+  
+  .sidebar nav ul li a:hover {
+    background-color: #34495e;
+  }
+  
+  .dashboard {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: white;
+    height: 100vh;
+    padding-top: 20px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+  }
+  
+  header {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+  }
+  
+  .applications-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .application-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .application-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .application-card h3 {
+    margin-top: 0;
+  }
+  
+  .application-card p {
+    margin: 10px 0;
+  }
+  
+  .view-details {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .view-details:hover {
+    background-color: #2980b9;
+  }
+  
+  .application-detail {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .application-detail h2 {
+    margin-top: 0;
+  }
+  
+  .application-detail p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .application-detail strong {
+    font-weight: bold;
+  }
+  
+  .not-found {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .not-found h2 {
+    color: red;
+  }
+  
+  .not-found button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .not-found button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* This container will center the login form both horizontally and vertically */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    background-color: #f4f4f9; /* Light background color */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* The login form styles */
+  .login-form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    width: 100%;
+    max-width: 400px; /* Maximum width of the form */
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    color: #333; /* Dark text for the title */
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for form fields */
+  .form-group {
+    margin-bottom: 15px; /* Spacing between inputs */
+  }
+  
+  .form-group input {
+    width: 100%; /* Make inputs take full width */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #3498db; /* Blue border when focused */
+  }
+  
+  /* Button styling */
+  .btn-login {
+    width: 100%; /* Button takes full width of the form */
+    padding: 12px;
+    background-color: #3498db; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .btn-login:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
