@@ -1,14 +1,12 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-
-const Home = () => {
-  return (
-    <div>
-      <h1>Home</h1>
-      <p>Welcome to the home page</p>
-      <p>click on <Link to="/dashboard"><strong>Dashboard</strong></Link> to explore more...</p>
-    </div>
-  )
-}
-
-export default Home;
+import React from 'react';
+ 
+ const Home = () => {
+   return (
+     <div>
+       <h2>Welcome to the Admin Console</h2>
+       <p>This is your dashboard. Use the sidebar to navigate to different features.</p>
+     </div>
+   );
+ };
+ 
+ export default Home;
