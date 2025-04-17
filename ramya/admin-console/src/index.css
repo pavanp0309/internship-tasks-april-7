@@ -1,0 +1,6 @@
+.card {
+    height: 500px; /* Ensure all cards have the same height */
+    display: flex;
+    flex-direction: column;
+  }
+  
