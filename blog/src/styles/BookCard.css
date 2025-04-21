@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 30px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .btn {
+    margin-top: 12px;
+    padding: 10px 16px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0f62b4;
+  }
+  

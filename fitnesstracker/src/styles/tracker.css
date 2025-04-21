@@ -1,0 +1,31 @@
+.tracker-card {
+    border-radius: 12px;
+    transition: transform 0.2s;
+  }
+  .tracker-card:hover {
+    transform: scale(1.02);
+  }
+  .progress-bar {
+    font-size: 0.85rem;
+  }
+  @media (max-width: 576px) {
+    .tracker-card {
+      font-size: 0.9rem;
+    }
+  }
+  body {
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  .summary-heading {
+    color: #007bff;
+  }
+  .metric-heading {
+    background: bisque; 
+    
+  }
+  

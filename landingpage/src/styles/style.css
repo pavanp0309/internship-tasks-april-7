@@ -1,0 +1,81 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  /* Utility Classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Button Styles */
+  .btn {
+    padding: 12px 24px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 60px 20px;
+  }
+  
+  /* Card and Grid Layouts */
+  .feature-card,
+  .testimonial-card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .features-grid,
+  .testimonials-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Avatar */
+  .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Animation Styles */
+  .fade-in {
+    animation: fadeInUp 1s ease-in-out both;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

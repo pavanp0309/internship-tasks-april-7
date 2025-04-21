@@ -1,0 +1,154 @@
+/* Layout and Container */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+/* Card Grid Styling */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Card Consistent Size */
+.col-md-4, .col-sm-6 {
+  flex: 1 1 calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .col-md-4, .col-sm-6 {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+/* Card Styling */
+.card {
+  flex: 1;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+/* Card Body */
+.card-body {
+  width: 100%;
+  text-align: left;
+}
+
+/* Headings & Badges */
+.card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  color: #777;
+}
+
+.badge {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  margin-right: 5px;
+  display: inline-block;
+  padding: 0.4em 0.6em;
+  border-radius: 0.5em;
+}
+
+.badge.bg-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.badge.bg-warning {
+  background-color: #f0ad4e;
+  color: #212529;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 0.8rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Logo Effects (Existing) */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Footer Text */
+.read-the-docs {
+  color: #888;
+}
+body {
+  background-image: url('./assets/background.jpg');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard {
+  display: flex;
+}
+
+aside {
+  width: 200px;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+nav a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+}
+button {
+  margin-top: 10px;
+}

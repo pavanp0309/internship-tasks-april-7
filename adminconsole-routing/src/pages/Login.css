@@ -1,0 +1,118 @@
+/* General styling for the login page container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('src/assets/login.jpg') no-repeat center center fixed;
+    background-size: cover; /* This will ensure the image covers the full page */
+  }
+  
+  /* Styling for the login box */
+  .login-box {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9); /* White background with some opacity to allow image to show through */
+    border-radius: 10px;  /* Increased border radius for a rounder look */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    width: 350px; /* Increased width for a larger card */
+    text-align: center;
+  }
+  
+  /* Heading for login */
+  .login-box h2 {
+    color: #2c3e50;
+    font-size: 28px; /* Larger font size for the title */
+    font-weight: bold;
+  }
+  
+  /* Style for input groups */
+  .input-group {
+    margin-bottom: 10px;  /* Increased margin for better spacing between fields */
+  }
+  
+  /* Label styling */
+  .input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 16px; /* Slightly larger text for labels */
+  }
+  
+  /* Input fields */
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  /* Style for login button */
+  .login-button {
+    width: 100%;
+    padding: 15px; /* Increased padding for a larger button */
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px; /* Increased border radius for the button */
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px; /* Slightly larger font size */
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Hover effect for the login button */
+  .login-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05); /* Slight scale effect for the hover */
+  }
+  
+  /* Optional: Add a small space around the button */
+  .login-box .login-button {
+    margin-top: 15px;
+  }
+  /* src/App.css */
+
+/* Global button styles */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px;
+  }
+  
+  /* Primary button (for main actions like View, Edit) */
+  button.primary {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  button.primary:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Secondary button (for settings or cancel actions) */
+  button.secondary {
+    background-color: #fdf6b2;
+    color: #121111;
+  }
+  
+  button.secondary:hover {
+    background-color: #2a7931;
+  }
+  
+  /* Tertiary button (for neutral actions like 'Go to Settings') */
+  button.tertiary {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    border: 1px solid #ccc;
+  }
+  
+  button.tertiary:hover {
+    background-color: #bdc3c7;
+  }
+  
