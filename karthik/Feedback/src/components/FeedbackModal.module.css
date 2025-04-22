@@ -1,0 +1,66 @@
+/* src/FeedbackModal.module.css */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .form {
+    margin-top: 1rem;
+  }
+  
+  .radioGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .thankYou {
+    font-size: 1.2rem;
+  }
+  
+  .emoji {
+    font-size: 3rem;
+    margin: 1rem 0;
+  }
+  
+  .closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      transform: scale(0.95);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  

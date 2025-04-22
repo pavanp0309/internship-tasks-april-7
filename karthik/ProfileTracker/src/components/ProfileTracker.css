@@ -1,0 +1,75 @@
+.profile-tracker {
+    max-width: 500px;
+    margin: auto;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background: #f9f9f9;
+    font-family: sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-section {
+    margin-bottom: 1rem;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .photo-preview {
+    margin-top: 0.5rem;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .progress-wrapper {
+    margin-top: 1rem;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    height: 10px;
+    background: #4caf50;
+    transition: width 0.5s ease;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.6rem;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .warning {
+    color: #e67e22;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  
