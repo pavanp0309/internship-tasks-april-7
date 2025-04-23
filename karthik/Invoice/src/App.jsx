@@ -1,13 +1,12 @@
-import React from "react";
-import InvoiceBuilder from "./InvoiceBuilder";
-import "bootstrap/dist/css/bootstrap.min.css";
-
-function App() {
-  return (
-    <div className="App">
-      <InvoiceBuilder />
-    </div>
-  );
-}
-
-export default App;
+import React from 'react';
+ import InvoiceBuilder from './components/InvoiceBuilder';
+ 
+ const App = () => {
+   return (
+     <div className="container py-4">
+       <InvoiceBuilder />
+     </div>
+   );
+ };
+ 
+ export default App;
