@@ -1,0 +1,8 @@
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+body {
+  background: linear-gradient(135deg, rgba(0, 153, 255, 0.7), rgba(255, 80, 0, 0.7));
+}

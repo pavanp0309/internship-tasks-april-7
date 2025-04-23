@@ -1,0 +1,145 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #fefefe;
+  color: #222;
+}
+
+.navbar {
+  background-color: #004080;
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  height: 60px; 
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-left: 50px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar li:hover {
+  color: #ffcc00;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: #004080;
+  border-radius: 5px;
+} 
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+.hero:hover {
+  background-color: #e8f0ff;
+}
+
+.hero-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #004080;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+.hero-image:hover {
+  transform: scale(1.05);
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.tech-used {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #004080;
+}
+
+.tech-used span {
+  background-color: #e6f0ff;
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin-right: 5px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.skill-card {
+  background: #eee;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.skill-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+footer.footer {
+  padding: 30px 20px;
+  background-color: #004080;
+  color: white;
+  text-align: center;
+}
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+.disabled-link {
+  color: white;
+  text-decoration: underline;
+  opacity: 0.85;
+}
