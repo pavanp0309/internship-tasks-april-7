@@ -1,0 +1,513 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Frontend Developer",
+      "company": "Google",
+      "location": "Remote",
+      "category": "Development",
+      "salary": "120000",
+      "experience": "2-3 Yrs",
+      "rating": "4.8",
+      "logo": "https://cdn-icons-png.flaticon.com/512/732/732212.png",
+      "description": "Build responsive and dynamic web applications using React.js.",
+      "skills": [
+        "React",
+        "JavaScript",
+        "CSS"
+      ],
+      "postedDaysAgo": "10 Days Ago",
+      "jobHighlights": [
+        "Remote flexibility",
+        "Cutting-edge technology",
+        "Collaborative team"
+      ],
+      "jobMatchScore": 92,
+      "moreAboutRole": "You will build user-centric interfaces, optimize performance, and work closely with UX teams to improve web experience.",
+      "role": "Frontend Developer",
+      "industryType": "Internet / E-Commerce",
+      "department": "Engineering - Web Development",
+      "employmentType": "Full Time, Permanent",
+      "roleCategory": "Programming & Design",
+      "education": "B.Tech/B.E. in Computer Science or equivalent",
+      "keySkills": [
+        "React",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "REST APIs"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Backend Developer",
+      "company": "Amazon",
+      "location": "Onsite",
+      "category": "Development",
+      "salary": "130000",
+      "experience": "3-5 Yrs",
+      "rating": "4.7",
+      "logo": "https://cdn-icons-png.flaticon.com/512/732/732190.png",
+      "description": "Design scalable backend systems with Node.js and AWS services.",
+      "skills": [
+        "Node.js",
+        "AWS",
+        "JavaScript"
+      ],
+      "postedDaysAgo": "5 Days Ago",
+      "jobHighlights": [
+        "High-scale systems",
+        "AWS infrastructure",
+        "Innovative environment"
+      ],
+      "jobMatchScore": 89,
+      "moreAboutRole": "Responsible for creating and managing REST APIs, integrating cloud solutions, and optimizing backend performance.",
+      "role": "Backend Developer",
+      "industryType": "E-Commerce",
+      "department": "Technology",
+      "employmentType": "Full Time, Permanent",
+      "roleCategory": "Programming & Design",
+      "education": "B.Tech/B.E. in Computer Science or related field",
+      "keySkills": [
+        "Node.js",
+        "AWS",
+        "Express",
+        "MongoDB",
+        "API design"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "UI/UX Designer",
+      "company": "Apple",
+      "location": "Hybrid",
+      "category": "Design",
+      "salary": "95000",
+      "experience": "1-2 Yrs",
+      "rating": "4.9",
+      "logo": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+      "description": "Create seamless user experiences and appealing interfaces.",
+      "skills": [
+        "Figma",
+        "Sketch",
+        "Adobe XD"
+      ],
+      "postedDaysAgo": "8 Days Ago",
+      "jobHighlights": [
+        "Hybrid work model",
+        "Design for impact",
+        "Creative freedom"
+      ],
+      "jobMatchScore": 85,
+      "moreAboutRole": "Work closely with product and engineering teams to design interfaces that are intuitive and user-focused.",
+      "role": "UI/UX Designer",
+      "industryType": "Consumer Electronics",
+      "department": "Design",
+      "employmentType": "Full Time",
+      "roleCategory": "Creative",
+      "education": "Any Graduate - Any Specialization",
+      "keySkills": [
+        "Wireframing",
+        "Prototyping",
+        "Interaction Design",
+        "Figma",
+        "Adobe Creative Suite"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Product Manager",
+      "company": "Microsoft",
+      "location": "Remote",
+      "category": "Management",
+      "salary": "140000",
+      "experience": "5-7 Yrs",
+      "rating": "4.5",
+      "logo": "https://cdn-icons-png.flaticon.com/512/732/732084.png",
+      "description": "Lead cross-functional teams and define product strategies.",
+      "skills": [
+        "Leadership",
+        "Product Strategy",
+        "Agile"
+      ],
+      "postedDaysAgo": "12 Days Ago",
+      "jobHighlights": [
+        "Remote team leadership",
+        "Impactful products",
+        "Cross-functional collaboration"
+      ],
+      "jobMatchScore": 88,
+      "moreAboutRole": "Drive the roadmap, define product features, and collaborate with engineering, marketing, and design teams.",
+      "role": "Product Manager",
+      "industryType": "Software",
+      "department": "Product Management",
+      "employmentType": "Full Time",
+      "roleCategory": "Management",
+      "education": "MBA or equivalent preferred",
+      "keySkills": [
+        "Product Management",
+        "Scrum",
+        "Market Research",
+        "Business Strategy"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "DevOps Engineer",
+      "company": "Netflix",
+      "location": "Onsite",
+      "category": "Operations",
+      "salary": "125000",
+      "experience": "3-5 Yrs",
+      "rating": "4.6",
+      "logo": "https://cdn-icons-png.flaticon.com/512/906/906343.png",
+      "description": "Manage cloud infrastructure and automate deployment pipelines.",
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS"
+      ],
+      "postedDaysAgo": "15 Days Ago",
+      "jobHighlights": [
+        "Onsite team",
+        "High performance systems",
+        "Automation-focused"
+      ],
+      "jobMatchScore": 90,
+      "moreAboutRole": "Design and manage CI/CD pipelines, ensure system reliability and uptime, and maintain scalable environments.",
+      "role": "DevOps Engineer",
+      "industryType": "Streaming/Entertainment",
+      "department": "Engineering",
+      "employmentType": "Full Time",
+      "roleCategory": "Infrastructure",
+      "education": "B.E./B.Tech in Computer Science or related field",
+      "keySkills": [
+        "CI/CD",
+        "Cloud Infrastructure",
+        "Monitoring Tools",
+        "Ansible",
+        "Shell Scripting"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Data Scientist",
+      "company": "Facebook",
+      "location": "Remote",
+      "category": "Data Science",
+      "salary": "150000",
+      "experience": "3-5 Yrs",
+      "rating": "4.8",
+      "logo": "https://cdn-icons-png.flaticon.com/512/4149/4149685.png",
+      "description": "Analyze large datasets to uncover actionable insights.",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "SQL"
+      ],
+      "postedDaysAgo": "20 Days Ago",
+      "jobHighlights": [
+        "Work from anywhere",
+        "Large-scale data",
+        "AI-driven projects"
+      ],
+      "jobMatchScore": 95,
+      "moreAboutRole": "Build predictive models, evaluate data-driven strategies, and collaborate with cross-functional teams.",
+      "role": "Data Scientist",
+      "industryType": "Social Media",
+      "department": "Data & AI",
+      "employmentType": "Full Time",
+      "roleCategory": "Analytics",
+      "education": "Master’s in Statistics/Computer Science/Data Science",
+      "keySkills": [
+        "Data Analysis",
+        "Model Building",
+        "NLP",
+        "Python",
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Mobile App Developer",
+      "company": "Uber",
+      "location": "Hybrid",
+      "category": "Development",
+      "salary": "110000",
+      "experience": "2-3 Yrs",
+      "rating": "4.7",
+      "logo": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+      "description": "Develop mobile apps for Android and iOS platforms.",
+      "skills": [
+        "Java",
+        "Swift",
+        "React Native"
+      ],
+      "postedDaysAgo": "6 Days Ago",
+      "jobHighlights": [
+        "Work from anywhere 3 days/week",
+        "Cross-platform apps",
+        "Impactful mobility solutions"
+      ],
+      "jobMatchScore": 87,
+      "moreAboutRole": "Responsible for delivering mobile-first features with great performance and UX for millions of users.",
+      "role": "Mobile App Developer",
+      "industryType": "Ride Sharing",
+      "department": "Engineering - Mobile",
+      "employmentType": "Full Time",
+      "roleCategory": "Mobile Development",
+      "education": "B.Tech in Computer Science/IT",
+      "keySkills": [
+        "React Native",
+        "Swift",
+        "Java",
+        "Mobile Architecture",
+        "API Integration"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Cloud Architect",
+      "company": "IBM",
+      "location": "Remote",
+      "category": "Operations",
+      "salary": "140000",
+      "experience": "5-7 Yrs",
+      "rating": "4.6",
+      "logo": "https://cdn-icons-png.flaticon.com/512/906/906343.png",
+      "description": "Design cloud-based solutions for enterprise clients.",
+      "skills": [
+        "AWS",
+        "Azure",
+        "Cloud Computing"
+      ],
+      "postedDaysAgo": "10 Days Ago",
+      "jobHighlights": [
+        "Remote-first",
+        "Enterprise-grade architecture",
+        "Cross-cloud work"
+      ],
+      "jobMatchScore": 91,
+      "moreAboutRole": "Lead architecture reviews, choose cloud technologies, and support cloud migration strategies.",
+      "role": "Cloud Architect",
+      "industryType": "IT Services",
+      "department": "Cloud Services",
+      "employmentType": "Full Time",
+      "roleCategory": "Cloud Solutions",
+      "education": "Bachelor’s/Master’s in Computer Science",
+      "keySkills": [
+        "Cloud Architecture",
+        "Security",
+        "Multi-cloud",
+        "DevOps",
+        "Networking"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "QA Engineer",
+      "company": "Adobe",
+      "location": "Onsite",
+      "category": "Quality Assurance",
+      "salary": "95000",
+      "experience": "2-3 Yrs",
+      "rating": "4.4",
+      "logo": "https://cdn-icons-png.flaticon.com/512/732/732190.png",
+      "description": "Ensure the quality of applications through testing and automation.",
+      "skills": [
+        "Selenium",
+        "Jenkins",
+        "Automation Testing"
+      ],
+      "postedDaysAgo": "14 Days Ago",
+      "jobHighlights": [
+        "Onsite QA lab",
+        "Modern test automation",
+        "Continuous Integration"
+      ],
+      "jobMatchScore": 84,
+      "moreAboutRole": "Execute test plans, automate test cases, and collaborate with dev teams to fix defects.",
+      "role": "QA Engineer",
+      "industryType": "Software",
+      "department": "Quality Assurance",
+      "employmentType": "Full Time",
+      "roleCategory": "Testing",
+      "education": "Bachelor’s in Computer Science",
+      "keySkills": [
+        "Automation",
+        "Selenium",
+        "Bug Tracking",
+        "Regression Testing",
+        "Jenkins"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "System Administrator",
+      "company": "Oracle",
+      "location": "Hybrid",
+      "category": "Operations",
+      "salary": "100000",
+      "experience": "3-5 Yrs",
+      "rating": "4.5",
+      "logo": "https://cdn-icons-png.flaticon.com/512/732/732212.png",
+      "description": "Manage and maintain IT systems and networks.",
+      "skills": [
+        "Linux",
+        "Networking",
+        "Virtualization"
+      ],
+      "postedDaysAgo": "5 Days Ago",
+      "jobHighlights": [
+        "Hybrid IT ops",
+        "Critical infrastructure",
+        "Security-focused"
+      ],
+      "jobMatchScore": 86,
+      "moreAboutRole": "Maintain system uptime, manage backups, and troubleshoot server/network issues.",
+      "role": "System Administrator",
+      "industryType": "Enterprise Software",
+      "department": "IT Infrastructure",
+      "employmentType": "Full Time",
+      "roleCategory": "System Administration",
+      "education": "Bachelor’s in IT or related field",
+      "keySkills": [
+        "Linux",
+        "Network Admin",
+        "Shell Scripting",
+        "VMware",
+        "System Security"
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Cognizant",
+      "rating": 3.7,
+      "reviews": "62.7k+",
+      "description": "Leading ITES company with global presence.",
+      "viewJobsUrl": "/jobs/cognizant",
+      "logo": "https://cdn-icons-png.flaticon.com/512/906/906175.png"
+    },
+    {
+      "id": "2",
+      "name": "Jio",
+      "rating": 4,
+      "reviews": "24.5k+",
+      "description": "True 5G is here to unlock limitless era.",
+      "viewJobsUrl": "/jobs/jio",
+      "logo": "https://cdn-icons-png.flaticon.com/512/733/733579.png"
+    },
+    {
+      "id": "3",
+      "name": "Avalara Technologies",
+      "rating": 3.2,
+      "reviews": "308",
+      "description": "We’re transforming tax through tech.",
+      "viewJobsUrl": "/jobs/avalara-technologies",
+      "logo": "https://cdn-icons-png.flaticon.com/512/906/906175.png"
+    },
+    {
+      "id": "4",
+      "name": "Tata Consultancy Services",
+      "rating": 3.6,
+      "reviews": "104.2k+",
+      "description": "Explore challenging and exciting opportunities at TCS.",
+      "viewJobsUrl": "/jobs/tcs",
+      "logo": "https://cdn-icons-png.flaticon.com/512/906/906175.png"
+    },
+    {
+      "id": "5",
+      "name": "An (Company name incomplete)",
+      "rating": 4,
+      "reviews": "Unknown",
+      "description": "World's largest company (description incomplete).",
+      "viewJobsUrl": "/jobs/an-company",
+      "logo": "https://cdn-icons-png.flaticon.com/512/565/565547.png"
+    },
+    {
+      "id": "6",
+      "name": "Facebook",
+      "logo": "https://cdn-icons-png.flaticon.com/512/4149/4149685.png",
+      "rating": 4.8,
+      "reviews": "90k+",
+      "description": "Bring the world closer together."
+    },
+    {
+      "id": "7",
+      "name": "Uber",
+      "logo": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+      "rating": 4.7,
+      "reviews": "70k+",
+      "description": "Move the way you want."
+    },
+    {
+      "id": "8",
+      "name": "IBM",
+      "logo": "https://cdn-icons-png.flaticon.com/512/906/906343.png",
+      "rating": 4.6,
+      "reviews": "65k+",
+      "description": "Let's put smart to work."
+    },
+    {
+      "id": "9",
+      "name": "Adobe",
+      "logo": "https://cdn-icons-png.flaticon.com/512/732/732190.png",
+      "rating": 4.4,
+      "reviews": "55k+",
+      "description": "Creativity for all."
+    },
+    {
+      "id": "10",
+      "name": "Oracle",
+      "logo": "https://cdn-icons-png.flaticon.com/512/732/732212.png",
+      "rating": 4.5,
+      "reviews": "58k+",
+      "description": "Integrated cloud applications and platform services."
+    }
+  ],
+  "employees": [
+    {
+      "id": "b67e",
+      "name": "sam",
+      "employeeId": "EMP1746769664652212",
+      "company": "wipro",
+      "role": "developer",
+      "password": "123"
+    }
+  ],
+  "createdjobs": [
+    {
+      "id": "523c",
+      "title": "Developer",
+      "company": "google",
+      "location": "Onsite",
+      "category": "Hybrid",
+      "salary": "100000",
+      "experience": "0-1",
+      "rating": "5",
+      "logo": "https://cdn-icons-png.flaticon.com/512/732/732212.png",
+      "description": "Google ",
+      "skills": [
+        "Html,css,java"
+      ],
+      "postedDaysAgo": "",
+      "jobHighlights": [
+        "Remote flexibility,Cutting-edge technology,Collaborative team"
+      ],
+      "jobMatchScore": "76",
+      "moreAboutRole": "programming",
+      "role": "Developer",
+      "industryType": "Hybrid",
+      "department": "Ece",
+      "employmentType": "Full Time",
+      "roleCategory": "Programming",
+      "education": "Btech",
+      "keySkills": [
+        "React,Python"
+      ],
+      "employerId": "EMP1746769664652212"
+    }
+  ]
+}

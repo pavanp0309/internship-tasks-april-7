@@ -1,0 +1,1 @@
+--to run backend--  json-server --watch src/api/db.json --port 3000
