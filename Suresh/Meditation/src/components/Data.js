@@ -1,0 +1,48 @@
+
+export const sessions = [
+  {
+    name: "Morning Focus",
+    category: "Focus",
+    duration: "10 min",
+    isLocked: false,
+    isPremium: false,
+    description: "Boost your focus for the day.",
+    image: "./src/assets/focus.jpg",
+  },
+  {
+    name: "Deep Sleep",
+    category: "Sleep",
+    duration: "20 min",
+    isLocked: true,
+    isPremium: true,
+    description: "Helps you fall into a deep sleep.",
+    image: "./src/assets/sleep.jpg",
+  },
+  {
+    name: "Calm Anxiety",
+    category: "Anxiety",
+    duration: "15 min",
+    isLocked: false,
+    isPremium: true,
+    description: "Relax your mind and body.",
+    image: "./src/assets/anxiety.jpg",
+  },
+  {
+    name: "Midday Reset",
+    category: "Focus",
+    duration: "12 min",
+    isLocked: false,
+    isPremium: false,
+    description: "Recharge and reset.",
+    image: "./src/assets/mid.jpg",
+  },
+  {
+    name: "Evening Wind Down",
+    category: "Sleep",
+    duration: "18 min",
+    isLocked: true,
+    isPremium: false,
+    description: "Improve your mind",
+    image: "./src/assets/tri.jpg",
+  },
+];
