@@ -1,0 +1,55 @@
+export const sessions = [
+    {
+      name: "Deep Focus",
+      category: "Focus",
+      duration: 20,
+      isLocked: false,
+      isPremium: true,
+      description: "Enhance your concentration.",
+    },
+    {
+      name: "Creative Flow",
+      category: "Focus",
+      duration: 15,
+      isLocked: true,
+      isPremium: false,
+    },
+    {
+      name: "Evening Calm",
+      category: "Sleep",
+      duration: 25,
+      isLocked: false,
+      isPremium: false,
+      description: "Unwind before bed.",
+    },
+    {
+      name: "Dreamscape",
+      category: "Sleep",
+      duration: 30,
+      isLocked: true,
+      isPremium: true,
+    },
+    {
+      name: "Anxiety Release",
+      category: "Anxiety",
+      duration: 10,
+      isLocked: false,
+      isPremium: false,
+      description: "Quick stress relief.",
+    },
+    {
+      name: "Safe Space",
+      category: "Anxiety",
+      duration: 12,
+      isLocked: true,
+      isPremium: false,
+    },
+    {
+      name: "Peaceful Mind",
+      category: "Anxiety",
+      duration: 8,
+      isLocked: false,
+      isPremium: true,
+    },
+  ];
+  
