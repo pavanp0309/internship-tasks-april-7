@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#id{
+    background-color: rgb(234, 252, 246);
+}
+#card{
+    background-color: rgb(181, 227, 248);
+}
+#banner-img{
+    width: 100%;
+    height: 600px;
+}
+.marquee-img{
+    width: 200px;
+    height: 150px;
+}
+#premium-card{
+    height: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#premium-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;    
+  }
+#choose-card{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+#choose-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+#icon{
+    font-size: 24px;
+}
+#subscribe-banner{
+    width: 100%;
+    height: 500px;
+}
+#latest-card{
+    width: 100%;
+    height: 200px;
+}
+.latest-card{
+    width:400px
+}
+#company-logo{
+    width: 50px;
+    height: 50px;
+}
+.id-img{
+    width: 100px;
+    height: 100px;
+}
+
+/* contact page */
+
+.contact-img{
+    width: 100%;
+    height: 500px;
+}
+#container{
+    background-color: #f4f7fe;
+}
+
+/* about us page */
+
+.how-works{
+    background-color: rgb(216, 235, 251);
+    height: 500px;
+}
+.card:hover {
+    transform: translateY(-8px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  
