@@ -1,11 +1,11 @@
 import React from 'react'
-import { useGetCryptoCoinDetailsQuery } from './components/crypto/services/cryptoMarkets'
+import CryptoTable from './components/crypto/components/cryptotables/CryptoTable'
 const App = () => {
 
   return (
-    <div>
-      
-    </div>
+   <>
+   <CryptoTable/>
+   </>
   )
 }
 
