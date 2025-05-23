@@ -3,6 +3,7 @@ import useCryptomarkets from '../../hooks/useCryptomarkets';
 import useCryptoHistory from '../../hooks/useCryptoHistory';
 import { Table } from "antd";
 import millify from 'millify';
+import LineChart from '../graphs/LineChart';
 
 const CryptoTable = () => {
     let {coins,isLoading,isError}=useCryptomarkets()
@@ -64,7 +65,7 @@ const columns = [
 ];
 
 // function for getting each coin history to display the Graph
-function Historicaldata(coinId){
+function Historicaldata({coinId}){
     console.log("coinid for history",coinId)
     const {history,isLoading,isError}=useCryptoHistory(coinId)
     console.log("history:",history)
@@ -75,6 +76,8 @@ function Historicaldata(coinId){
      if(isError){
         return <span>error</span>
      }
+
+     return <LineChart  data={history}/>
 
 
 }
