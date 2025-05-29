@@ -1,8 +1,9 @@
 
 import { useGetCryptoCoinHistoryQuery } from '../services/cryptoMarkets'
 
-const useCryptoHistory = (coinId,timeperiod="3h") => {
-    let {data,isLoading,isError}=useGetCryptoCoinHistoryQuery(coinId,timeperiod)
+const useCryptoHistory = (coinId,timePeriod="3h") => {
+       console.log(timePeriod)
+    let {data,isLoading,isError}=useGetCryptoCoinHistoryQuery({coinId,timePeriod})
     let history=data?.data?.history || []
   return {history,isLoading,isError}
 }

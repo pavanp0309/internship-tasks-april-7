@@ -27,7 +27,7 @@ export const cryptoMarketApi = createApi({
       query: (coinId) => createRequest(`/coin/${coinId}`), // gets single coin details from the crypto coins api
     }),
     getCryptoCoinHistory: builder.query({
-      query: (coinId, timePeriod="3h") =>
+      query: ({coinId, timePeriod="5y"}) =>
         createRequest(`/coin/${coinId}/history?&timePeriod=${timePeriod}`), // gets  price history of coin
     }),
   }),

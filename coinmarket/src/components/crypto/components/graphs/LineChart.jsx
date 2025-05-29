@@ -7,8 +7,7 @@ import {
   LineElement,
   Title,
   Tooltip,
-  Legend,
-  scales,
+  Legend
 } from 'chart.js';
 
 ChartJS.register(
@@ -21,47 +20,51 @@ ChartJS.register(
   Legend
 );
 
+const LineChart = ({ data }) => {
+  if (!data || data.length === 0) return <div>No data</div>;
 
-const LineChart = ({data}) => {
-const chartdata = {
-  labels:data.map((d)=>new Date(d.timestamp*1000).toLocaleTimeString()),
-  datasets: [
-    {
-      label: 'Price',
-      data: data.map((coin) =>parseFloat(coin.price)) ,
-      borderColor: 'rgb(255, 99, 132)',
-      backgroundColor: 'rgba(255, 99, 132, 0.5)',
-      fill:false,
-      lineTension:1,
-      borderWidth:2,
-      pointRadius:0
-    },
-    
-    
-  ],
-};
+  const firstPrice = parseFloat(data[0].price);
+  const lastPrice = parseFloat(data[data.length - 1].price);
+  const trendColor = lastPrice > firstPrice ? 'green' : lastPrice < firstPrice ? 'red' : 'orange';
 
-const options = {
-  responsive: true,
-  plugins: {
-    legend: {
-      display:false
+  const chartData = {
+    labels: data.map(d => new Date(d.timestamp * 1000).toLocaleTimeString()),
+    datasets: [
+      {
+        label: 'Price',
+        data: data.map(d => parseFloat(d.price)),
+        borderColor: trendColor,
+        backgroundColor: trendColor,
+        fill: false,
+        tension: 0.4,
+        borderWidth: 2,
+        pointRadius: 0
+      }
+    ]
+  };
+
+  const options = {
+    responsive: true,
+    plugins: {
+      legend: {
+        display: false
+      },
     },
-   scales:{
-    x:{
-    display:false
-    },
-    y:{
-    display:false
+    scales: {
+      x: {
+        display: false
+      },
+      y: {
+        display: false
+      }
     }
-   }
-  },
-};
-  return (
- <div style={{width:"100%",height:"100px"}}>
- <Line options={options} data={chartdata} />
- </div>
-  )
-}
+  };
 
-export default LineChart
+  return (
+    <div style={{ width: "100%", height: "50px" }}>
+      <Line options={options} data={chartData} />
+    </div>
+  );
+};
+
+export default LineChart;
