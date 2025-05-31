@@ -1,0 +1,45 @@
+body{
+    background-color: #d0e2ed;
+}
+@media  screen and (min-width: 300px)and (max-width: 576px){
+    .card{
+        width: 100px;
+    }
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 35px;
+}
+.card{
+    height: 550px;
+    width: 300px;
+    text-align: center;
+    margin: 15px;
+}
+.img{
+    width: 100%;
+}
+.img1{
+    width: 100%;
+    height: 285px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    margin: 15px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.card:hover{
+    border: 1px solid;
+    box-shadow:  10px 10px 8px 10px #888888;
+    transform: scale(0.93) rotate(5deg);
+}
